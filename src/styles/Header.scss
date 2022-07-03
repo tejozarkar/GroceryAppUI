@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
+
+.custom-header {
+    height: 70px;
+    background: #30475E;
+    border-bottom: 2px solid #eee;
+
+    ul {
+        display: flex;
+        list-style-type: none;
+        margin: 0px;
+        padding: 0;
+        height: 100%;
+
+        li {
+            margin: 0px 10px;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .logo {
+                font-family: 'Splash', cursive;
+                color: white;
+                font-size: 3em;
+                margin: 0px 20px;
+            }
+
+            a {
+                color: white;
+
+
+            }
+        }
+    }
+}

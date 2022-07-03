@@ -1,0 +1,63 @@
+.item-wrap {
+    background: white;
+    margin-bottom: 1em;
+    padding: 1em;
+    border-radius: 1em;
+    position: relative;
+    border-left: 2px solid #1572A1;
+    border-right: 2px solid #1572A1;
+
+    p {
+        margin: 0;
+        padding: 0;
+    }
+
+    .item-name {
+        color: #576F72;
+        font-size: 1.2em;
+        padding-right: 30%;
+    }
+
+    .item-mrp {
+        text-decoration: line-through;
+        font-size: 0.8em;
+        color: #7D9D9C;
+    }
+
+    .item-discount-price {
+        font-weight: 600;
+        color: #7D9D9C;
+    }
+
+    .item-weight {
+        margin-bottom: 20px;
+
+    }
+
+    .item-discount-percent {
+        padding: 0.3em 1em;
+        background: #ECE5C7;
+        position: absolute;
+        color: #5F7161;
+        top: 1em;
+        right: 1em;
+    }
+
+    .item-quantity {
+        position: absolute;
+        right: 1em;
+        bottom: 1em;
+        width: 30px;
+        height: 30px;
+        background: #BB6464;
+        color: white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    button .ant-btn .ant-btn-primary {
+        background: #F6C6EA !important;
+    }
+}
